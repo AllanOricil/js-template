@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     name: Release
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: pnpm/action-setup@v2.4.0
