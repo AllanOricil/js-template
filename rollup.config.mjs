@@ -1,4 +1,5 @@
 import typescript from "@rollup/plugin-typescript";
+import terser from "@rollup/plugin-terser";
 
 export default {
   input: "./src/index.ts",
@@ -19,6 +20,27 @@ export default {
       name: "jsTemplate",
       globals: {},
       sourcemap: true,
+    },
+    ,
+    {
+      file: "./dist/index.min.mjs",
+      format: "es",
+      sourcemap: true,
+      plugins: [terser()],
+    },
+    {
+      file: "./dist/index.min.cjs",
+      format: "cjs",
+      sourcemap: true,
+      plugins: [terser()],
+    },
+    {
+      file: "./dist/index.min.umd.js",
+      format: "umd",
+      name: "jsTemplate",
+      globals: {},
+      sourcemap: true,
+      plugins: [terser()],
     },
   ],
   plugins: [
