@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/AllanOricil/js-template/compare/v1.2.0...v1.3.0) (2024-01-31)
+
+### Features
+
+- exclude .husky folder from the published package ([eb033c1](https://github.com/AllanOricil/js-template/commit/eb033c1ae38cc59d3db3b5c0c246e549aec9b563))
+- exclude .husky folder from the published package ([#6](https://github.com/AllanOricil/js-template/issues/6)) ([7d720f2](https://github.com/AllanOricil/js-template/commit/7d720f2be96f7afd681170a9f38a1c42be286c7c))
+
 # [1.2.0](https://github.com/AllanOricil/js-template/compare/v1.1.0...v1.2.0) (2024-01-31)
 
 ### Features
